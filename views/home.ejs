@@ -1,0 +1,17 @@
+
+
+
+<%- include('header') %>
+
+    <div class="home-page d-flex align-items-center jutify-content-center">
+        <div class="home-inner">
+            <h1>Welcome</h1>
+            <h5>
+                <%= locals.user ? user : "user" %>
+            </h5>
+      
+            <a class="btn btn-danger" href="/router/logout">Logout</a>
+        </div>
+    </div>
+    
+    <%- include('footer') %>

@@ -1,0 +1,36 @@
+@import url('https//fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-image: url('/assets/lock.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center-div{
+    padding-top: 10%;
+}
+
+.btn.btn-success{
+    margin-top: 1em ;
+}
+/* form{
+    padding: 0 3em;
+} */
+/* 
+#login.title>span{
+    font-size: .8em;
+} */
+
+.home-page {
+    height: 80vh;
+}
+
+.home-inner {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 3rem;
+}
